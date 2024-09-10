@@ -14,6 +14,9 @@ This project guides you through the development of a chatbot that can interpret 
 ## Brief Explanation of How the Chatbot Works
 The chatbot streamlines data retrieval by translating your natural language queries into SQL commands using Mistral AI. These queries are then executed against a SQL database, and the results are presented in a clear and understandable format. This efficient process involves seamless integration with Mistral AI and a SQL database, all within a user-friendly Streamlit application.
 
+Consider the following diagram to understand how the different chains and components are built:
+![Alt text]("image/chatbot-diagram.png")
+
 ## Installation
 
 Ensure python is installed on your system. Then clone the repository 
